@@ -1,0 +1,22 @@
+{
+    "manifest_version":3,
+    "name":"Admin de contraseñas",
+    "description":"Gestor de contraseñas",
+    "version":"1",
+    "icons":{
+        "128":"icon_128.png"
+    },
+    "permissions":[
+        "storage",
+        "activeTab",
+        "scripting",
+        "tabs"
+    ],
+    "background":{
+        "service_worker":"background.js"
+    },
+    "host_permissions":[
+        "<all_urls>"
+    ]
+
+}
